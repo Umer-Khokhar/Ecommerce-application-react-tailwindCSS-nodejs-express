@@ -1,4 +1,5 @@
 import { Navbar, HeroSection, HomeCategory } from "../components"
+import { images } from "../constants"
 
 const HomePage = () => {
   return (

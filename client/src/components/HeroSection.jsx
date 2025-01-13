@@ -1,9 +1,8 @@
 import { images } from "../constants";
-import { FaHeart, FaCoins, FaCalendar  } from "react-icons/fa";
-import { LuChartNoAxesCombined, LuMonitor  } from "react-icons/lu";
+import { FaHeart, FaCoins, FaCalendar } from "react-icons/fa";
+import { LuChartNoAxesCombined, LuMonitor } from "react-icons/lu";
 import { FaCircleUser } from "react-icons/fa6";
 import { BsGraphUp } from "react-icons/bs";
-
 
 const HeroSection = () => {
   return (
@@ -35,32 +34,28 @@ const HeroSection = () => {
             <div className="mt-12 grid grid-cols-2 items-start sm:grid-cols-2 md:grid-cols-4 gap-6 text-xs">
               <div className="flex md:flex-col justify-start items-start md:w-full">
                 <div className="bg-customBlueDark p-3 w-full flex justify-around items-center md:block md:h-20">
-                  <LuMonitor  className="text-2xl text-white "/>
-                <p className=" font-medium text-white/90">
-                  Electronic Products
-                </p>
+                  <LuMonitor className="text-2xl text-white " />
+                  <p className=" font-medium text-white/90">
+                    Electronic Products
+                  </p>
                 </div>
               </div>
               <div className="flex sm:flex-col items-start justify-center  lg:w-full">
                 <div className="bg-customBlueDark p-3 w-full flex justify-around items-center md:block md:h-20">
-                  <BsGraphUp  className="text-2xl text-white "/>
-                <p className=" font-medium text-white">
-                  In-Demand Products
-                </p>
+                  <BsGraphUp className="text-2xl text-white " />
+                  <p className=" font-medium text-white">In-Demand Products</p>
                 </div>
               </div>
               <div className="flex sm:flex-col items-start lg:w-full">
                 <div className="bg-customBlueDark p-3 w-full flex justify-around items-center md:block md:h-20">
-                  <FaCoins className="text-2xl text-white "/>
-                <p className=" font-medium text-white">Best Prices</p>
+                  <FaCoins className="text-2xl text-white " />
+                  <p className=" font-medium text-white">Best Prices</p>
                 </div>
               </div>
               <div className="flex md:flex-col items-start lg:w-full">
                 <div className="bg-customBlueDark p-3 w-full flex justify-around items-center md:block md:h-20">
-                  <FaCalendar  className="text-2xl text-white "/>
-                <p className="font-medium text-white">
-                  1-Year Warranty
-                </p>
+                  <FaCalendar className="text-2xl text-white " />
+                  <p className="font-medium text-white">1-Year Warranty</p>
                 </div>
               </div>
             </div>

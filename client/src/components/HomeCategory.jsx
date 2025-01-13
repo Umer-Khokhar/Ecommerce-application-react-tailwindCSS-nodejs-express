@@ -1,5 +1,5 @@
 
-import { useApiContext } from "./"
+import { ProductCard, useApiContext } from "./"
 
 const HomeCategory = ({ categoryName }) => {
   const { electronicProducts } = useApiContext()
@@ -8,7 +8,7 @@ const HomeCategory = ({ categoryName }) => {
         <h3 className="text-2xl font-bold">Shop Our Top {categoryName} Category</h3>
 
         {electronicProducts.map((product) => (
-          <div key={product.id}>{product.title}</div>
+          <ProductCard />
         ))}
     </div>
   )
